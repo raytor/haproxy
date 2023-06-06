@@ -18,7 +18,7 @@ services:
     volumes:
 #     - ./haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
 #      - /mnt/d/k8s/haproxy-lab/haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
-      - ./haproxy/certs/henderson:/usr/local/etc/haproxy/certs/henderson
+      - ./haproxy/certs:/usr/local/etc/haproxy/certs
 #      - /mnt/d/k8s/haproxy-lab/haproxy/certs/henderson:/usr/local/etc/haproxy/certs/henderson
       
     container_name: haproxy
